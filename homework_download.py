@@ -1,3 +1,4 @@
+# 以文件主题(Subject)在制定路径下创建文件夹，在该文件夹下下载该邮件的附件
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import poplib
