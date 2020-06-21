@@ -88,13 +88,13 @@ for i in range(index,0,-1):
     # 对头文件进行解码
     msgHeader = decode_str(msgHeader)
     print(msgHeader) 
-    path='/Users/dianewang/Desktop/hmorganizer/'+ msgHeader
+    path='/Users/../hmorganizer/'+ msgHeader #制定路径下
     #如果没有文件夹就新建一个，如果有的话就直接走下一步
     if not os.path.exists(path):
         os.mkdir(path)
     #取日期近的文件下载else:
 
-    path='/Users/dianewang/Desktop/hmorganizer/'+ msgHeader+'/'   
+    path='/Users/../hmorganizer/'+ msgHeader+'/'   #在该路径下下载附件
     f_list = get_att(msg)#获取附件
     
         
